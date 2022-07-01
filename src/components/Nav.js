@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Nav.css';
+import '../styles/Nav.css';
 
 function Nav() {
     const [ show, handleShow ] = useState(false);
