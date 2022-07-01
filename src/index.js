@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './styles/index.css';
 import { BrowserRouter } from "react-router-dom";
 
 const container = document.getElementById('root');
@@ -16,7 +16,7 @@ root.render(
       <Provider store={store}>
         <App />
       </Provider>
-    </BrowserRouter>  
+    </BrowserRouter>
   </React.StrictMode>
 );
 
